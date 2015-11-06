@@ -16,6 +16,14 @@ Route::get('/', function()
 	return View::make('tasks');
 });
 
+route::get('/saludo', function(){
+	return View::make('hello');
+});
+
+
+route::get('/registro', function(){
+	return View::make('lol');
+});
 // return all tasks
 Route::get('/tasks', 'TaskController@getTasks');
 

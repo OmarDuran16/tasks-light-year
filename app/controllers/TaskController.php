@@ -1,6 +1,7 @@
 <?php
 
 class TaskController extends BaseController {
+  //gettasks muestra el controlador de tareas
 
 	public function getTasks()
 	{
